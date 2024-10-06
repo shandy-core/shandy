@@ -1,0 +1,3 @@
+[submodule "libshandy"]
+	path = libshandy
+	url = git@github.com:shandy-core/libshandy.git
