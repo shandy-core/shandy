@@ -32,11 +32,8 @@ let package = Package(
             dependencies: [
                 "libshandy",
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
-            ]),
-        .testTarget(
-            name: "shandyTests",
-            dependencies: ["shandy"]
-        ),
+            ]
+        )
     ],
     swiftLanguageModes: [
         .v6
